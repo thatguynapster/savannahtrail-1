@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Satisfy&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,9 +16,9 @@ body {
     --card-foreground: 0 0% 3.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 3.9%;
-    --primary: 0 0% 9%;
+    --primary: 10 68% 53%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96.1%;
+    --secondary: 210 63% 50%;
     --secondary-foreground: 0 0% 9%;
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
@@ -69,4 +71,70 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold font-volkhov;
+  }
+
+  p {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .hero {
+    @apply relative min-h-screen bg-cover bg-center flex items-center;
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0 bg-black/50;
+  }
+
+  .btn-primary {
+    /* @apply bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-md font-medium transition-all; */
+    @apply bg-primary text-white px-6 py-3 rounded-md font-medium transition-all;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-white px-6 py-3 rounded-md font-medium transition-all;
+  }
+
+  .btn-outline {
+    @apply border border-white/70 text-white px-6 py-3 rounded-md font-medium transition-all hover:bg-white/10;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl mb-6;
+  }
+
+  .section-subtitle {
+    @apply text-sm text-primary uppercase font-medium tracking-wider mb-2;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+  }
+}
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+
+.glass {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
