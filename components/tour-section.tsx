@@ -55,15 +55,15 @@ const ToursSection = (props: Props) => {
                     {destinations.map((destination) => (
                         <div
                             key={destination.id}
-                            className={`relative rounded-lg overflow-hidden shadow-lg group transition-all card-hover ${destination.featured ? 'row-span-2 col-span-2' : ''
+                            className={`relative rounded-lg overflow-hidden shadow-lg group transition-all card-hover ${destination.featured ? 'md:row-span-2 md:col-span-2' : ''
                                 }`}
                         >
                             <img
                                 src={destination.image}
                                 alt={destination.name}
                                 className={clsx("w-full aspect-square object-cover", {
-                                    'h-[calc((16rem*2)+1.5rem)]': destination.featured,
-                                    'h-64': !destination.featured
+                                    'md:h-[calc((16rem*2)+1.5rem)]': destination.featured,
+                                    'md:h-64': !destination.featured
                                 })}
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
@@ -83,7 +83,7 @@ const ToursSection = (props: Props) => {
                     ))}
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 

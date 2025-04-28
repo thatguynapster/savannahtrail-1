@@ -1,12 +1,11 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
-import { Menu, X } from 'lucide-react'
-import Link from 'next/link'
-import clsx from 'clsx'
-import NavLinks from './nav-links'
 import { useEffect, useState } from 'react'
+import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
+
+import { Button } from '@/components/ui/button'
 import NavItem from './nav-item'
 
 type Props = {}
@@ -69,9 +68,9 @@ const Navigation = ({ }: Props) => {
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                             </svg>
                                         </span>
-                                        <div className="absolute left-0 mt-2 w-48 bg-[#D9D9D9]/30 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                                        <div className="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                                             {sub.map(({ href, name }) =>
-                                                <NavItem key={href} {...{ href, name }} className='block px-4 py-2 text-dark hover:bg-gray-100 hover:text-primary/80 rounded-lg' />
+                                                <NavItem key={href} {...{ href, name }} className='block px-4 py-2 text-dark hover:bg-gray-100 hover:text-primary/80 rounded-lg' isSub />
                                             )}
                                         </div>
                                     </div>
@@ -79,7 +78,7 @@ const Navigation = ({ }: Props) => {
 
                             )}
 
-                            {navigation.map(({ name, href, sub }) => <div key={name}></div>)}
+                            {/* {navigation.map(({ name, href, sub }) => <div key={name}></div>)} */}
                         </div>
                     </div>
 
