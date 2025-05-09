@@ -36,12 +36,12 @@ const AboutPage = (props: Props) => {
 
                         <div className="md:w-1/2">
                             <h3 className="section-subtitle">INTRODUCTION</h3>
-                            <h2 className="section-title">We Provide You Best Sightseeing Tours</h2>
+                            <h2 className="section-title">Connecting your heritage across borders.</h2>
                             <p className="mb-6 text-gray-600">
-                                At SAvannahTrail, we believe that every journey should be unforgettable. With over a decade of experience in the travel industry, we've curated extraordinary experiences for thousands of travelers worldwide. Our team of passionate travel experts is dedicated to creating personalized itineraries that perfectly match your preferences and desires.
+                                Savannah Trail is a cultural travel brand under Nyansapo Exploration Limited, dedicated to reconnecting the African diaspora with their heritage. Through immersive tours, educational programs, and community partnerships, we offer meaningful experiences that celebrate African's rich history, traditions, and spirit.
                             </p>
                             <p className="mb-8 text-gray-600">
-                                Whether you're seeking a romantic getaway, a family adventure, or a solo exploration, we have the expertise and resources to make your travel dreams come true. Our commitment to exceptional service, attention to detail, and sustainable tourism practices sets us apart in the industry.
+                                Our mission is to empower diasporans and cultural seekers to explore their roots, deepen their identity, and contribute to heritage preservation. With warmth, authenticity, and respect, we create journeys that don't just visit — they transform.
                             </p>
                             <button className="btn-primary flex items-center">
                                 Read More <ArrowRight className="ml-2 w-5 h-5" />
@@ -55,26 +55,26 @@ const AboutPage = (props: Props) => {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-16">
                         <h3 className="section-subtitle">TRENDS</h3>
-                        <h2 className="section-title">Our Popular Tour Plans</h2>
+                        <h2 className="section-title">Our Most Popular Experiences</h2>
                         <p className="max-w-3xl mx-auto text-gray-600">
-                            Discover our most sought-after travel experiences, carefully crafted to provide unforgettable memories and authentic cultural immersion.
+                            Explore our top cultural journeys designed to reconnect, inspire, and celebrate African heritage through immersive storytelling and authentic connections.
                         </p>
                     </div>
 
                     <div className="flex flex-wrap justify-center gap-10">
                         <div className="rounded-full bg-white shadow-lg p-8 w-40 h-40 flex flex-col items-center justify-center text-center">
-                            <span className="text-3xl font-bold text-primary">78%</span>
-                            <span className="text-gray-600 mt-2">VACATIONS</span>
+                            <span className="text-3xl font-bold text-primary">82%</span>
+                            <span className="text-gray-600 mt-2 uppercase">Cultural Tours</span>
                         </div>
 
                         <div className="rounded-full bg-white shadow-lg p-8 w-40 h-40 flex flex-col items-center justify-center text-center">
-                            <span className="text-3xl font-bold text-primary">55%</span>
-                            <span className="text-gray-600 mt-2">HONEYMOONS</span>
+                            <span className="text-3xl font-bold text-primary">64%</span>
+                            <span className="text-gray-600 mt-2 uppercase">Community Programs</span>
                         </div>
 
                         <div className="rounded-full bg-white shadow-lg p-8 w-40 h-40 flex flex-col items-center justify-center text-center">
-                            <span className="text-3xl font-bold text-primary">30%</span>
-                            <span className="text-gray-600 mt-2">MUSICAL EVENTS</span>
+                            <span className="text-3xl font-bold text-primary">46%</span>
+                            <span className="text-gray-600 mt-2 uppercase">Festivals & Events</span>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const AboutPage = (props: Props) => {
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-16">
                         <h3 className="section-subtitle">WHY CHOOSE US</h3>
-                        <h2 className="section-title">Why Travel With Us?</h2>
+                        <h2 className="section-title">Why Choose Savannah Trails?</h2>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
