@@ -13,23 +13,23 @@ const testimonials = [
     {
         id: 1,
         name: "Sarah Johnson",
-        location: "Traveled to Bali, Indonesia",
+        location: "Traveled to Accra, Ghana",
         image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80",
-        text: "Our trip to Bali was absolutely magnificent. The accommodations were perfect, the guides were knowledgeable and friendly, and everything was planned with incredible attention to detail. I'll definitely be booking my next adventure through this platform!"
+        text: "Our trip to Accra was absolutely magnificent. The accommodations were perfect, the guides were knowledgeable and friendly, and everything was planned with incredible attention to detail. I'll definitely be booking my next adventure through this platform!"
     },
     {
         id: 2,
         name: "Michael Chen",
-        location: "Traveled to Tokyo, Japan",
+        location: "Traveled to Kigali, Rwanda",
         image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=150&h=150&q=80",
-        text: "The Japan tour exceeded all my expectations! Every detail was perfectly arranged, from the traditional ryokan stays to the guided tours of hidden temples. The local food recommendations were outstanding, and the customer service was exceptional when we needed to adjust our itinerary."
+        text: "The Rwanda tour exceeded all my expectations! Every detail was perfectly arranged, from the traditional stays to the guided tours of hidden temples. The local food recommendations were outstanding, and the customer service was exceptional when we needed to adjust our itinerary."
     },
     {
         id: 3,
         name: "Emily Rodriguez",
-        location: "Traveled to Paris, France",
+        location: "Traveled to Addis Ababa, Ethiopia",
         image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&h=150&q=80",
-        text: "Paris was a dream come true! The boutique hotel they booked for us was just steps away from the Eiffel Tower, and our private tour of the Louvre was unforgettable. The restaurant reservations they made for us were at places we never would have found on our own. Simply magical!"
+        text: "Ethiopia was a dream come true! The boutique hotel they booked for us was just exceptional, and our private tour of the city was unforgettable. The restaurant reservations they made for us were at places we never would have found on our own. Simply magical!"
     },
     {
         id: 4,
@@ -61,7 +61,7 @@ const TestimonialsSection = (props: Props) => {
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h3 className="section-subtitle">TESTIMONIALS</h3>
-                    <h2 className="section-title">See What Our Clients Say About Us</h2>
+                    <h2 className="section-title">Hear From Those Who've Reconnected With Their Roots</h2>
                 </div>
 
                 <div className="max-w-4xl mx-auto relative">

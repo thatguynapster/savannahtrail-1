@@ -16,7 +16,7 @@ const Footer = (props: Props) => {
                             <span className="text-2xl font-serif">Travel<span className="text-primary">.</span></span>
                         </Link>
                         <p className="text-gray-600 mb-6 text-sm">
-                            Travel helps companies manage payments easily.
+                            Follow us for African travel inspiration.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors">
@@ -40,24 +40,25 @@ const Footer = (props: Props) => {
                             <li><Link href="/about" className="text-gray-600 hover:text-primary transition-colors">About Us</Link></li>
                             <li><Link href="/careers" className="text-gray-600 hover:text-primary transition-colors">Careers</Link></li>
                             <li><Link href="/blog" className="text-gray-600 hover:text-primary transition-colors">Blog</Link></li>
-                            <li><Link href="/pricing" className="text-gray-600 hover:text-primary transition-colors">Pricing</Link></li>
+                            <li><Link href="/faqs" className="text-gray-600 hover:text-primary transition-colors">FAQs</Link></li>
+                            <li><Link href="/privacy-policy" className="text-gray-600 hover:text-primary transition-colors">Privacy Policy</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-lg font-semibold mb-6">Destinations</h4>
                         <ul className="space-y-3">
-                            <li><Link href="/destinations/maldives" className="text-gray-600 hover:text-primary transition-colors">Maldives</Link></li>
-                            <li><Link href="/destinations/los-angeles" className="text-gray-600 hover:text-primary transition-colors">Los Angeles</Link></li>
-                            <li><Link href="/destinations/las-vegas" className="text-gray-600 hover:text-primary transition-colors">Las Vegas</Link></li>
-                            <li><Link href="/destinations/toronto" className="text-gray-600 hover:text-primary transition-colors">Toronto</Link></li>
+                            <li><Link href="/destinations/cape-coast" className="text-gray-600 hover:text-primary transition-colors">Cape Coast & Elmina</Link></li>
+                            <li><Link href="/destinations/ouidah" className="text-gray-600 hover:text-primary transition-colors">Ouidah</Link></li>
+                            <li><Link href="/destinations/johannesburg" className="text-gray-600 hover:text-primary transition-colors">Johannesburg & Soweto</Link></li>
+                            <li><Link href="/destinations/marrakesh" className="text-gray-600 hover:text-primary transition-colors">Marrakesh</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-lg font-semibold mb-6">Join Our Newsletter</h4>
                         <p className="text-gray-600 mb-4 text-sm">
-                            * Will send you weekly updates for your better tour packages
+                            Get updates on new tour packages, cultural events, and travel tips to inspire your next adventure
                         </p>
                         <div className="flex w-full flex-col md:flex-row">
                             {/* <input
