@@ -13,8 +13,8 @@ const CategoriesSection = (props: Props) => {
                     >
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                         <div className="absolute bottom-0 left-0 p-8 text-white">
-                            <h3 className="text-3xl mb-2">Explore Nature</h3>
-                            <p className="mb-4">Discover breathtaking landscapes</p>
+                            <h3 className="text-3xl mb-2">Nature's Wonders</h3>
+                            <p className="mb-4">From Rainforests to Waterfalls</p>
                             <button className="btn-outline">Learn More</button>
                         </div>
                     </div>
@@ -25,8 +25,8 @@ const CategoriesSection = (props: Props) => {
                     >
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                         <div className="absolute bottom-0 left-0 p-8 text-white">
-                            <h3 className="text-3xl mb-2">Explore Cities</h3>
-                            <p className="mb-4">Experience vibrant urban adventures</p>
+                            <h3 className="text-3xl mb-2">Urban Escapes</h3>
+                            <p className="mb-4">Culture and Creativity</p>
                             <button className="btn-outline">Learn More</button>
                         </div>
                     </div>
