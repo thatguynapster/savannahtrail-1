@@ -6,23 +6,23 @@ type Props = {}
 const services = [
     {
         icon: <Plane className="w-10 h-10 text-primary" />,
-        title: "Explore Top Flights",
-        description: "Find the perfect flight to your dream destination with our comprehensive search and exclusive deals."
+        title: "Tour Packages",
+        description: "Embark on immersive cultural tours designed to reconnect you with Africa's rich history and vibrant traditions. From heritage landmarks to hidden gems, each tour offers a deep dive into local culture."
     },
     {
         icon: <Building className="w-10 h-10 text-primary" />,
-        title: "Best Hotels Options",
-        description: "From luxury resorts to charming boutique hotels, find the perfect accommodation for your stay."
+        title: "Accommodation",
+        description: "Choose from a variety of accommodation options, including guest rooms, rooms with host families, and boutique stays.Comfort, authenticity, and cultural immersion are at the heart of every lodging choice."
     },
     {
         icon: <MapPin className="w-10 h-10 text-primary" />,
-        title: "Enjoy Your Trips",
-        description: "Experience unforgettable adventures with our carefully curated travel packages and guided tours."
+        title: "Car Rental Services",
+        description: "Enjoy the freedom to explore at your own pace with our flexible car rental and transportation services.From personal car hires to chauffeured rides, we ensure you get where you need to go comfortably and efficiently."
     },
     {
         icon: <Headphones className="w-10 h-10 text-primary" />,
-        title: "Premium Support",
-        description: "Our dedicated customer service team is available 24/7 to assist with any inquiries or issues."
+        title: "Guided Cultural Tours",
+        description: "Enhance your African journey with our expert local guides. From historic landmarks to vibrant community experiences, our knowledgeable guides provide insightful narratives that bring each destination to life."
     }
 ];
 
