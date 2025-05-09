@@ -37,9 +37,9 @@ const DestinationSection = (props: Props) => {
 
                     <div className="md:w-1/2">
                         <h3 className="section-subtitle">DESTINATION</h3>
-                        <h2 className="section-title font-bold font-volkhov">Our Romantic Tropical Destinations</h2>
+                        <h2 className="section-title font-bold font-volkhov">Personalized Experience</h2>
                         <p className="mb-6 text-gray-600">
-                            Experience the romance of pristine beaches, crystal-clear waters, and breathtaking sunsets at our carefully selected tropical getaways. Perfect for honeymoons, anniversaries, or a special escape with your loved one.
+                            Create your own unique journey. Whether it's a private tour, a special event, or a tailored itinerary, we customize every detail to suit your preferences and ensure a one-of-a-kind experience.
                         </p>
                         <button className="btn-primary flex items-center">
                             Discover More <ArrowRight className="ml-2 w-5 h-5" />
