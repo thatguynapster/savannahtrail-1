@@ -44,7 +44,7 @@ const ToursSection = (props: Props) => {
                 <div className="mb-12">
                     <h3 className="section-subtitle">TOP DESTINATIONS</h3>
                     <div className="flex flex-col md:flex-row justify-between items-end">
-                        <h2 className="section-title mb-0 font-bold font-volkhov">We Provide You Best Europe Sightseeing Tours</h2>
+                        <h2 className="section-title mb-0 font-bold font-volkhov">Explore the Best of Africa's Rich Heritage & Culture</h2>
                         <button className="btn-primary flex items-center mt-4 md:mt-0">
                             View All <ArrowRight className="ml-2 w-5 h-5" />
                         </button>
@@ -70,7 +70,7 @@ const ToursSection = (props: Props) => {
                                 <div className="p-6 text-white">
                                     <h3 className="text-xl font-semibold">{destination.name}</h3>
                                     {destination.featured && (
-                                        <p className="mt-2 text-white/80">Explore the iconic landmarks and hidden gems of this beautiful city</p>
+                                        <p className="mt-2 text-white/80">From vibrant festivals to ancestral landmarks, discover immersive destinations that connect you to the soul of Africa.</p>
                                     )}
                                     <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity">
                                         <button className="bg-primary text-white px-4 py-2 rounded-md text-sm">
