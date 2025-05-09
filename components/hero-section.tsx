@@ -17,10 +17,14 @@ const HeroSection = (props: Props) => {
                     />
 
                     <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center h-full">
-                        <div className="max-w-2xl">
-                            <h1 className="text-3xl font-poppins font-semibold tracking-tight text-white sm:text-7xl">
-                                No matter where you're going to, we'll take you there
+                        <div className="max-w-2xl text-white">
+                            <h1 className="text-3xl font-poppins font-semibold tracking-tight sm:text-7xl">
+                                Discover your roots, embrace your heritage
                             </h1>
+
+                            <p className="text-xl font-poppins mt-8">
+                                and explore Africa through authentic, immersive cultural experiences. Your journey home begins here
+                            </p>
 
                             <BookingForm />
                         </div>
