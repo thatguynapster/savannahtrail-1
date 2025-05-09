@@ -6,7 +6,7 @@ type Props = {}
 const packages = [
     {
         id: 1,
-        name: "Switzerland",
+        name: "Heritage Discovery Tour",
         image: "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&w=600&h=400&q=80",
         rating: 4.8,
         price: 1250,
@@ -15,7 +15,7 @@ const packages = [
     },
     {
         id: 2,
-        name: "Amazon",
+        name: "Immersive Village Experience",
         image: "https://images.unsplash.com/photo-1518182170546-07661fd94144?auto=format&fit=crop&w=600&h=400&q=80",
         rating: 4.7,
         price: 1450,
@@ -24,7 +24,7 @@ const packages = [
     },
     {
         id: 3,
-        name: "Peru",
+        name: "Adventure & Nature Trail",
         image: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=600&h=400&q=80",
         rating: 4.9,
         price: 1350,
