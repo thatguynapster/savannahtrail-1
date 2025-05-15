@@ -90,34 +90,34 @@ const AboutPage = (props: Props) => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <div className="bg-white p-8 rounded-lg shadow-md text-center">
                             <div className="w-16 h-16 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
-                                <Award className="w-8 h-8 text-primary" />
+                                <ShieldCheck className="w-8 h-8 text-primary" />
                             </div>
-                            <h3 className="text-xl font-semibold mb-3">Award-winning Service</h3>
-                            <p className="text-gray-600">Recognized globally for our exceptional travel services and customer satisfaction.</p>
+                            <h3 className="text-xl font-semibold mb-3">Flexible Payment Options</h3>
+                            <p className="text-gray-600">We offer convenient payment plans to make your transformative journey more accessible — without the financial strain.</p>
                         </div>
 
                         <div className="bg-white p-8 rounded-lg shadow-md text-center">
                             <div className="w-16 h-16 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
-                                <ShieldCheck className="w-8 h-8 text-primary" />
+                                <Award className="w-8 h-8 text-primary" />
                             </div>
-                            <h3 className="text-xl font-semibold mb-3">Safe and Secure</h3>
-                            <p className="text-gray-600">Your safety is our priority. We ensure all our tours meet the highest security standards.</p>
+                            <h3 className="text-xl font-semibold mb-3">Community-Centered & Authentic</h3>
+                            <p className="text-gray-600">We collaborate with local communities to ensure your travel supports heritage preservation and creates lasting impact.</p>
                         </div>
 
                         <div className="bg-white p-8 rounded-lg shadow-md text-center">
                             <div className="w-16 h-16 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
                                 <Clock className="w-8 h-8 text-primary" />
                             </div>
-                            <h3 className="text-xl font-semibold mb-3">Best Price Guarantee</h3>
-                            <p className="text-gray-600">We offer competitive pricing and value for money without compromising on quality.</p>
+                            <h3 className="text-xl font-semibold mb-3">Diaspora-Focused Experiences</h3>
+                            <p className="text-gray-600">Our tours are curated for the African diaspora, blending history, culture, and self-discovery in every step.</p>
                         </div>
 
                         <div className="bg-white p-8 rounded-lg shadow-md text-center">
                             <div className="w-16 h-16 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
                                 <Users className="w-8 h-8 text-primary" />
                             </div>
-                            <h3 className="text-xl font-semibold mb-3">Expert Travel Team</h3>
-                            <p className="text-gray-600">Our knowledgeable professionals provide personalized assistance and insider insights.</p>
+                            <h3 className="text-xl font-semibold mb-3">Deep Cultural Connection</h3>
+                            <p className="text-gray-600">Immerse yourself in authentic African experiences designed to reconnect you with your roots and heritage.</p>
                         </div>
                     </div>
                 </div>

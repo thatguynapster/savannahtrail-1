@@ -6,7 +6,7 @@ type Props = {}
 
 const HeroSection = (props: Props) => {
     return (
-        <section className="bg-black/30 h-screen max-h-[calc(100dvh-6rem)] flex">
+        <section className="bg-black/30 h-screen max-h-[calc(100dvh-5rem)] flex">
             <div className="relative w-full isolate overflow-hidden pt-14">
                 <div className="absolute left-0 right-0 top-0 bottom-0 bg-black/30">
                     <Image

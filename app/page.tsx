@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <HeroSection />
 
-      <Brands />
+      {/* <Brands /> */}
 
       <ServicesSection />
 
