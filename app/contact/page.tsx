@@ -26,7 +26,7 @@ const ContactPage = (props: Props) => {
                 <div className="container mx-auto px-4 h-full flex items-center justify-center relative z-10">
                     <div className="text-center text-white">
                         <h1 className="text-5xl font-cursive font-bold capitalize">Contact us</h1>
-                        <h2 className="mt-8 text-3xl">Get in Touch with Us</h2>
+                        <h2 className="mt-8 text-3xl">We'd Love to Hear from You</h2>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const ContactPage = (props: Props) => {
             <div className="container mx-auto pt-12 px-4">
                 <div className="text-center mb-8">
                     <p className="max-w-2xl mx-auto text-gray-600">
-                        Have questions about our services, need help planning your next adventure, or want to provide feedback? We'd love to hear from you!
+                        Have questions about our services, need assistance planning your next adventure, or wish to provide feedback? Reach out to us. we're here to help!
                     </p>
                 </div>
 
@@ -52,8 +52,7 @@ const ContactPage = (props: Props) => {
                             <Phone className="w-8 h-8 text-primary" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Phone Number</h3>
-                        <p className="text-gray-600">+1 (555) 123-4567</p>
-                        <p className="text-gray-600">+1 (555) 765-4321</p>
+                        <p className="text-gray-600">+233 24 459 2767</p>
                     </div>
 
                     <div className="bg-white shadow-md rounded-lg p-8 text-center">
@@ -61,8 +60,7 @@ const ContactPage = (props: Props) => {
                             <Mail className="w-8 h-8 text-primary" />
                         </div>
                         <h3 className="text-xl font-semibold mb-3">Email Address</h3>
-                        <p className="text-gray-600">info@travelagency.com</p>
-                        <p className="text-gray-600">support@travelagency.com</p>
+                        <p className="text-gray-600">info@savannahtrail.com</p>
                     </div>
                 </div>
 

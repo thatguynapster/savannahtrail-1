@@ -89,17 +89,28 @@ const PackagesPage = () => {
     const totalPages = Math.ceil(destinations.length / itemsPerPage);
 
     return (
-        <div className="min-h-screen pt-24">
-            <section className="py-20 bg-cover bg-center" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&h=600&q=80')" }}>
-                <div className="absolute inset-0 bg-black/50"></div>
-                <div className="container mx-auto px-4 relative z-10">
-                    <div className="text-center text-white max-w-3xl mx-auto">
-                        <h1 className="text-5xl md:text-7xl font-cursive mb-6">Travel With Us</h1>
+        <div className="min-h-screen pb-12">
+            <div
+                className="relative h-80 bg-cover bg-center"
+                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&h=600&q=80')" }}
+            >
+                <div className="absolute inset-0 bg-black/60"></div>
+                <div className="container mx-auto px-4 h-full flex items-center justify-center relative z-10">
+                    <div className="text-center text-white">
+                        <h1 className="text-5xl font-cursive font-bold">Plan Your Trip</h1>
+                        <h2 className="mt-8 text-3xl capitalize">Experience Culture, History, and Adventure</h2>
                     </div>
                 </div>
-            </section>
+            </div>
 
-            <section className="py-16 bg-gray-50">
+            <section className="py-16">
+                <div className="text-center mb-8">
+                    <p className="text-gray-600 max-w-2xl mx-auto mt-4">
+                        Embark on an unforgettable journey through Africa's rich tapestry of cultures and histories. Our expert local guides are passionate storytellers, ready to immerse you in authentic experiences that connect you deeply with the land and its people.
+                        Whether you're tracing ancestral roots, exploring vibrant festivals, or discovering hidden gems, we're here to make your adventure truly memorable.
+                    </p>
+                </div>
+
                 <div className="container mx-auto px-4">
                     <div className="flex flex-wrap justify-center gap-4 mb-12">
                         <button className="flex items-center gap-2 bg-white px-5 py-3 rounded-md shadow-sm">

@@ -7,32 +7,32 @@ type Props = {}
 const destinations = [
     {
         id: 1,
-        name: "London",
-        image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&h=400&q=80",
+        name: "Takoradi",
+        image: "https://images.unsplash.com/photo-1622487560941-7f6bd5ed24b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         featured: false
     },
     {
         id: 4,
-        name: "Eiffel Tower",
-        image: "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&h=400&q=80",
+        name: "Johannesburg",
+        image: "https://plus.unsplash.com/premium_photo-1721742732864-a22c6f460c79?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         featured: false
     },
     {
         id: 2,
-        name: "Paris",
-        image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&h=400&q=80",
+        name: "Accra",
+        image: "https://images.unsplash.com/photo-1628690570333-067654e57889?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         featured: true
     },
     {
         id: 3,
-        name: "Rome",
-        image: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=600&h=400&q=80",
+        name: "Kigali",
+        image: "https://images.unsplash.com/photo-1585773111351-977313a05e66?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         featured: false
     },
     {
         id: 5,
-        name: "Santorini",
-        image: "/img/santorini.jpg",
+        name: "Addis Ababa",
+        image: "https://plus.unsplash.com/premium_photo-1695297516798-d275bdf26575?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         featured: false
     }
 ];

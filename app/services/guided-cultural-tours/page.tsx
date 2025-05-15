@@ -13,8 +13,8 @@ const PackagesPage = (props: Props) => {
                 <div className="absolute inset-0 bg-black/60"></div>
                 <div className="container mx-auto px-4 h-full flex items-center justify-center relative z-10">
                     <div className="text-center text-white">
-                        <h1 className="text-5xl font-cursive font-bold">Packages</h1>
-                        <h2 className="mt-8 text-3xl capitalize">All-inclusive Tour Packages</h2>
+                        <h1 className="text-5xl font-cursive font-bold">Guided Cultural Tours</h1>
+                        <h2 className="mt-8 text-3xl capitalize">Experience Culture, History, and Adventure</h2>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,8 @@ const PackagesPage = (props: Props) => {
             <div className="container mx-auto pt-12 px-4">
                 <div className="text-center mb-8">
                     <p className="text-gray-600 max-w-2xl mx-auto mt-4">
-                        Experience the best of your dream destinations with our curated tour packages.
-                        All-inclusive options with flights, accommodation, and guided tours.
+                        Embark on an unforgettable journey through Africa's rich tapestry of cultures and histories. Our expert local guides are passionate storytellers, ready to immerse you in authentic experiences that connect you deeply with the land and its people.
+                        Whether you're tracing ancestral roots, exploring vibrant festivals, or discovering hidden gems, we're here to make your adventure truly memorable.
                     </p>
                 </div>
 

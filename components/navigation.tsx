@@ -19,9 +19,11 @@ const Navigation = ({ }: Props) => {
         { name: 'About', href: '/about' },
         {
             name: 'Services', sub: [
-                { name: 'Flights', href: '/services/flights' },
-                { name: 'Hotels', href: '/services/hotels' },
-                { name: 'Tour Packages', href: '/services/packages' }
+                { name: 'Tour Packages', href: '/services/tour-packages' },
+                { name: 'Personalized Experience', href: '/services/personalized-experience' },
+                { name: 'Accommodation', href: '/services/accommodation' },
+                { name: 'Car Rental', href: '/services/car-rental' },
+                { name: 'Guided Cultural Tours', href: '/services/guided-cultural-tours' },
             ]
         },
         { name: 'Upcoming Packages', href: '/packages' },
